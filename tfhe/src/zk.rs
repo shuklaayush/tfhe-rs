@@ -31,7 +31,7 @@ impl ZkVerificationOutCome {
 
 #[derive(Serialize, Deserialize)]
 pub struct CompactPkeCrs {
-    public_params: CompactPkePublicParams,
+    pub public_params: CompactPkePublicParams,
 }
 
 impl CompactPkeCrs {
